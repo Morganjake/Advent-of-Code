@@ -13,4 +13,4 @@ for i in code:
     if dial == 0: zeroes += 1
 
 print(zeroes)
-print(f"PRogram finished in {time.process_time()- startTime:.4f}ms")
+print(f"Program finished in {time.process_time() - startTime:.4f}ms")
