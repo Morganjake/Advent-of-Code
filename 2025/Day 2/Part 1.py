@@ -1,6 +1,6 @@
 import time
 
-startTime = time.process_time()
+startTime = time.perf_counter()
 
 with open("../2025/Day 2/input.txt", "r") as file:
     Ids = [x.split("-") for x in file.readline().split(",")]
@@ -18,4 +18,4 @@ for id1, id2 in Ids:
         invalidID = int(str(invalidIDHalf) * 2)
 
 print(invalidSum)
-print(f"Program finished in {time.process_time() - startTime:.4f}ms")
+print(f"Program finished in {time.perf_counter() - startTime:.4f}ms")
