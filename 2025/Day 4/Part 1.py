@@ -24,4 +24,4 @@ for x in count:
         if i < 4: possible += 1
 
 print(possible)
-print(f"Program finished in {time.perf_counter() - startTime:.4f}ms")
+print(f"Program finished in {time.perf_counter() - startTime:.4f} seconds")

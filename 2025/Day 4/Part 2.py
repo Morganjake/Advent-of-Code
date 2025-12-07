@@ -31,4 +31,4 @@ while True:
 	if possible == 0: break
 
 print(totalPossible)
-print(f"Program finished in {time.perf_counter() - startTime:.4f}ms")
+print(f"Program finished in {time.perf_counter() - startTime:.4f} seconds")

@@ -15,4 +15,4 @@ for i in voltages:
     volts += int(str(maxVolts[0]) + str(max(i[maxVolts[1] + 1:])))
 
 print(volts)
-print(f"Program finished in {time.perf_counter() - startTime:.4f}ms")
+print(f"Program finished in {time.perf_counter() - startTime:.4f} seconds")

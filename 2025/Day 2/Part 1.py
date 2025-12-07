@@ -18,4 +18,4 @@ for id1, id2 in Ids:
         invalidID = int(str(invalidIDHalf) * 2)
 
 print(invalidSum)
-print(f"Program finished in {time.perf_counter() - startTime:.4f}ms")
+print(f"Program finished in {time.perf_counter() - startTime:.4f} seconds")

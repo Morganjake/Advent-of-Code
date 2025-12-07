@@ -24,4 +24,4 @@ for i in voltages:
     volts += int(voltage)
 
 print(volts)
-print(f"Program finished in {time.perf_counter() - startTime:.4f}ms")
+print(f"Program finished in {time.perf_counter() - startTime:.4f} seconds")
