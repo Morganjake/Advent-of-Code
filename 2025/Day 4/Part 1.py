@@ -5,6 +5,7 @@ startTime = time.perf_counter()
 with open("../2025/Day 4/input.txt", "r") as file:
     paper = [x.strip() for x in file.readlines()]
 
+count = [[0 for _ in range(len(paper[0]))] for _ in range(len(paper))]
 offsets = [[-1, -1], [-1, 0], [-1, 1], [0, 1], [1, 1], [1, 0], [1, -1], [0, -1]]
 
 for y in range(len(paper)):
