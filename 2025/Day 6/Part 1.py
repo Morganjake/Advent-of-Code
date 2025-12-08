@@ -21,4 +21,4 @@ for x in nums:
         totalSum += product
 
 print(totalSum)
-print(f"Program finished in {time.perf_counter() - startTime:.4f}ms")
+print(f"Program finished in {time.perf_counter() - startTime:.4f} seconds")
